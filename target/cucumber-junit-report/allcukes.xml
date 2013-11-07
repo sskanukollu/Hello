@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" tests="3">
+<testcase classname="Create a new Lead" name="Create a new Lead_3" time="96.195093">
+<system-out><![CDATA[Given I am logged in Salesforce on "chrome".................................................passed
+Given I am logged in Salesforce on "firefox"................................................passed
+Given I am logged in Salesforce on "ie"...................................................passed
+Given browser is "chrome"..........................................................passed
+And I click on "leadtab"..........................................................passed
+Then "Leads" element should be present...................................................passed
+And I click on "newButton".........................................................passed
+Then "NewLead" element should be present..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create a new Lead" name="Create a new Lead_2" time="4.641375">
+<system-out><![CDATA[Given I am logged in Salesforce on "chrome".................................................passed
+Given I am logged in Salesforce on "firefox"................................................passed
+Given I am logged in Salesforce on "ie"...................................................passed
+Given browser is "firefox".........................................................passed
+And I click on "leadtab"..........................................................passed
+Then "Leads" element should be present...................................................passed
+And I click on "newButton".........................................................passed
+Then "NewLead" element should be present..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create a new Lead" name="Create a new Lead_1" time="5.440807">
+<system-out><![CDATA[Given I am logged in Salesforce on "chrome".................................................passed
+Given I am logged in Salesforce on "firefox"................................................passed
+Given I am logged in Salesforce on "ie"...................................................passed
+Given browser is "ie"............................................................passed
+And I click on "leadtab"..........................................................passed
+Then "Leads" element should be present...................................................passed
+And I click on "newButton".........................................................passed
+Then "NewLead" element should be present..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
